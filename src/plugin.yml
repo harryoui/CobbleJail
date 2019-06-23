@@ -1,0 +1,21 @@
+name: CobbleJail
+main: com.harryoui.cobblejail.CobbleJail
+version: 0.0
+api-version: 1.13
+authors:
+    - Harryoui
+descripton: Jail plugin where work sets you free
+
+depend: [Multiverse-Core]
+softdepend: [Dynmap]
+
+commands:
+    CobbleJail:
+            description: CobbleJail info
+            usage: See /CobbleJail help
+    Jail:
+            description: Core CobbleJail command
+            usage: See /CobbleJail help
+    Unjail:
+            description: Remove player from jail
+            usage: /Unjail <player>
